@@ -2,14 +2,210 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Behind the stick</title>
+	<title>Behind The Stick</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://kit.fontawesome.com/a076d05399.js">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
-	<h1>Behind the stick</h1>
-	<p>Welcome</p>
+
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+  <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+  <a href="#" class="w3-bar-item w3-button">Index</a>
+  <a href="/phpFunctions/logout.php" class="w3-bar-item w3-button">Logout</a>
+ 
+</nav>
+
+
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+ 
+  <h1 class="w3-xxxlarge w3-animate-bottom">BEHIND THE STICK</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">CLICK TO LEARN MORE</button>
+    </div>
+  </div>
+</header>
+
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Welcome to the Behind The Stick App!</h4>
+        <h5> <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>This app aims to enable every bartender to enhance and hone their bartending skills.</p>
+        <p>This is not just for bartenders though! Everyone can make a drink following this app.</p>
+      </div>
+     
+    </div>
+</div>
+
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>The</h3><br>
+  <p>The cocktail and spirit industry </p>
+  <p>Are in need of accessible, affordable </p>
+  <p>Education tool</p>
+ 
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Science</h3><br>
+ 
+  <p>An App that is </p>
+  <p>Completely accessible, and approachable </p>
+  <p>For all</p>
+ 
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Of Mixology</h3><br>
+  
+  <p>A hollistic apporach</p>
+  <p>To all things</p>
+  <p>Behind the Stick</p>
+
+  </div>
+</div>
+</div>
+
+
+
+<div class="w3-container w3-center">
+  <hr>
+  <h3></h3>
+</div>
+
+<div class="w3-row-padding"> 
+
+<div class="w3-third">
+<div class="w3-card">
+  <img src="https://media.istockphoto.com/photos/barman-making-an-alcoholic-drink-with-ice-in-a-cocktail-glass-picture-id923371352?b=1&k=20&m=923371352&s=170667a&w=0&h=ohzwkzF5k14EWx_l1D62bUc1bjmlQiJ-TkqfhAkMt48=" alt="Car" style="width:100%">
+  <div class="w3-container">
+
+  </div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card-4">
+  <img src="https://images.unsplash.com/photo-1588285210413-177ecbb287e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFydGVuZGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Car" style="width:100%">
+  <div class="w3-container">
+  
+  </div>
+</div>
+</div>
+
+<div class="w3-third">
+<div class="w3-card-4">
+  <img src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/03/11/Pictures/_53cd57ea-24fc-11e8-8baa-23f2d497fa41.jpg" alt="Car" style="width:100%">
+  <div class="w3-container">
+ 
+  </div>
+</div>
+</div>
+</div>
+
+
+<hr>
+<h2 class="w3-center">Links Below For Naviagating Our App</h2>
+<div class="w3-center">
+  <br>
+  <a href="spirits101.html" class="w3-button w3-theme">Spirits 101</a>
+  <a href="bartendtech.html" class="w3-button w3-theme">Bar Tending Techniques</a>
+  <a href="spirits101.html" class="w3-button w3-theme">Bar Preparation</a>
+  <a href="spirits101.html" class="w3-button w3-theme">Recipies</a>
+  <a href="spirits101.html" class="w3-button w3-theme">Spirit-Free Courses</a>
+  <br><br>
+
+</div>
+<br>
+
+
+</div>
+
+
+
+
+
+
+<script>
+
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+
+
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	<span><?php echo $_SESSION["firstName"]; ?></span>
+	<br>
+	<br>
+	<br>
+
+
+
+
+	
 	<button><a href="/phpFunctions/logout.php">Logout</button>
+
+
+
+
 </body>
 </html> 
